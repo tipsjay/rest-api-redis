@@ -1,0 +1,19 @@
+{
+  "name": "redis-cache-rest-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:start": "nodemon index.ts"
+  },
+  "author": "j.rayan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ioredis": "^5.0.2",
+    "nodemon": "^2.0.15",
+    "redis": "^4.0.4"
+  }
+}
